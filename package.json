@@ -1,0 +1,45 @@
+{
+  "name": "react-native-swipeable-flat-list",
+  "version": "0.0.1",
+  "keywords": [
+    "FlatList",
+    "ListView",
+    "react-native"
+  ],
+  "homepage": "https://github.com/Naturalclar/react-native-swipeable-flat-list#readme",
+  "bugs": {
+    "url": "https://github.com/Naturalclar/react-native-swipeable-flat-list/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naturalclar/react-native-swipeable-flat-list.git"
+  },
+  "license": "MIT",
+  "author": "Jesse Katsumata <jesse.katsumata@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "yarn prepare",
+    "lint": "eslint ./src --ext .tsx",
+    "prepare": "tsc",
+    "watch": "tsc -w"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^0.0.7",
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.12",
+    "eslint": "^6.8.0",
+    "react": "^16.12.0",
+    "react-native": "^0.61.5",
+    "react-native-gesture-handler": "^1.5.6",
+    "react-native-reanimated": "^1.7.0",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  }
+}
