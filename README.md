@@ -123,7 +123,7 @@ The library is released under the MIT license. For more information see [`LICENS
 
 <!-- [build-badge]: https://img.shields.io/circleci/project/github/Naturalclar/react-native-swipe-list/master.svg?style=flat-square
 [build]: https://circleci.com/gh/Naturalclar/react-native-swipe-list -->
-[version-badge]: https://img.shields.io/npm/v/naturalclar/react-native-swipe-list.svg?style=flat-square
+[version-badge]: https://img.shields.io/npm/v/react-native-swipe-list.svg?style=flat-square
 [package]: https://www.npmjs.com/package/naturalclar/react-native-swipe-list
 [support-badge]:https://img.shields.io/badge/platforms-android%20|%20ios-lightgrey.svg?style=flat-square
 [license-badge]: https://img.shields.io/npm/l/naturalclar/react-native-swipe-list.svg?style=flat-square
