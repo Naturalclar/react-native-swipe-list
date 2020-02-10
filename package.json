@@ -1,18 +1,18 @@
 {
-  "name": "react-native-swipeable-flat-list",
+  "name": "react-native-swipe-list",
   "version": "0.0.2",
   "keywords": [
     "FlatList",
     "ListView",
     "react-native"
   ],
-  "homepage": "https://github.com/Naturalclar/react-native-swipeable-flat-list#readme",
+  "homepage": "https://github.com/Naturalclar/react-native-swipe-list#readme",
   "bugs": {
-    "url": "https://github.com/Naturalclar/react-native-swipeable-flat-list/issues"
+    "url": "https://github.com/Naturalclar/react-native-swipe-list/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Naturalclar/react-native-swipeable-flat-list.git"
+    "url": "git+https://github.com/Naturalclar/react-native-swipe-list.git"
   },
   "license": "MIT",
   "author": "Jesse Katsumata <jesse.katsumata@gmail.com>",
