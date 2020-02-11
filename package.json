@@ -25,7 +25,7 @@
     "prettier:ci": "prettier --check \"**/*.{json,md,ts,yml}\"",
     "prettier": "prettier --write \"**/*.{json,md,ts,yml}\"",
     "build": "yarn prepare",
-    "lint": "eslint ./src --ext .tsx",
+    "lint": "eslint \"src/*.{ts,tsx}\" --cache",
     "prepare": "tsc",
     "watch": "tsc -w"
   },
