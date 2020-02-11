@@ -22,8 +22,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prettier:ci": "prettier --check \"**/*.{json,md,ts,yml}\"",
-    "prettier": "prettier --write \"**/*.{json,md,ts,yml}\"",
+    "prettier:ci": "prettier --check \"**/*.{js,json,md,ts,tsx,yml}\"",
+    "prettier": "prettier --write \"**/*.{js,json,md,ts,tsx,yml}\"",
     "build": "yarn prepare",
     "lint": "eslint \"src/*.{ts,tsx}\" --cache",
     "prepare": "tsc",
