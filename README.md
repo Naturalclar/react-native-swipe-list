@@ -47,7 +47,7 @@ export const TestModule = () => {
       <SwipeableFlatList
         data={data}
         renderItem={({ item }) => <ListItem {...item} />}
-        keyExtractor={index => index.id}
+        keyExtractor={(index) => index.id}
         renderLeftActions={({ item }) => (
           <SwipeableQuickActions>
             <SwipeableQuickActionButton
@@ -55,7 +55,7 @@ export const TestModule = () => {
                 LayoutAnimation.configureNext(
                   LayoutAnimation.Presets.easeInEaseOut,
                 );
-                setData(data.filter(value => value !== item.album));
+                setData(data.filter((value) => value !== item.album));
               }}
               text="delete"
               textStyle={{ fontWeight: 'bold', color: 'white' }}
