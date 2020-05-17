@@ -44,7 +44,7 @@ export const SwipeableRow = <ItemT extends {}>({
       leftThreshold={40}
       rightThreshold={40}
       friction={2}
-      ref={ref => (rowRef.current = ref)}
+      ref={(ref) => (rowRef.current = ref)}
     >
       <View>{children}</View>
     </Swipeable>

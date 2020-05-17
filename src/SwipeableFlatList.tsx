@@ -66,7 +66,7 @@ export const SwipeableFlatList = <ItemT extends {}>(props: Props<ItemT>) => {
   return (
     <FlatList
       {...props}
-      ref={ref => {
+      ref={(ref) => {
         if (ref !== null) {
           _flatListRef.current = ref;
         }
