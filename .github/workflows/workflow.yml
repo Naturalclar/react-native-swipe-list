@@ -7,9 +7,7 @@ jobs:
     strategy:
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
-
-    env:
-      node-version: 13.x
+        node-version: [16]
 
     runs-on: ${{ matrix.os }}
 
@@ -20,7 +18,7 @@ jobs:
       - name: Use Node.js ${{ env.node-version }}
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ env.node-version }}
+          node-version: ${{ matrix.node-version }}
 
       - name: Get yarn cache directory
         id: yarn
